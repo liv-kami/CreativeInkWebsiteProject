@@ -40,6 +40,12 @@ body{
     width: 400px;
     padding: 20px 10px;
     grid-area: logo;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 
 }
 .tab-buttons{
