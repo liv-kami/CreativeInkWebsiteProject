@@ -4,13 +4,13 @@
         <link rel="stylesheet" href="person.css">
         <link href='https://fonts.googleapis.com/css?family=Inknut Antiqua' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=New Rocker' rel='stylesheet'>
-        <link rel="icon" href="tatgun.png">
+        <link rel="icon" href="./photos/tatgun.png">
         <title>Creative Ink Tattoo Studio</title>
     </head>
     <body>
         <div class="transparent">
             <div class="top-bar">
-                <img onclick="home()" class="logo-img" src="creativeInkLogo-removebg-preview.png">
+                <img onclick="home()" class="logo-img" src="./photos/creativeInkLogo-removebg-preview.png">
                 <div class="tab-buttons">
                     <button class="portfolios-button" onclick="portfolio()">Portfolios</button>
                     <button class="booking-button" onclick="booking()">Booking/Contact</button>
@@ -22,7 +22,20 @@
             <!--Any other content (use their photos ive got to choose from them)-->
             <div class="page-header">Cesar Perez</div>
             <!--carosel here-->
-            
+            <div class="slideshow">
+                <div class="slide">
+                    <img onclick="full(this)" src="./photos/cesar1.webp" style="width: 100%;">
+                </div>
+                <div class="slide">
+                    <img onclick="full(this)" src="./photos/cesar2.webp" style="width: 100%;">
+                </div>
+                <div class="slide">
+                    <img onclick="full(this)" src="./photos/cesar3.webp" style="width: 100%;">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="note">Click to see the full image</div>
         </div>
         <script src="index.js"></script>
     </body>

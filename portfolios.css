@@ -3,7 +3,7 @@
 }
 
 body{
-    background: url("othertattooing.jpg"), black;
+    background: url("./photos/othertattooing.jpg"), black;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100vh;
@@ -107,19 +107,19 @@ body{
 }
 
 .cesar{
-    background-image: radial-gradient(#C7000025, black), url("cesar.webp");
+    background-image: radial-gradient(#C7000025, black), url("./photos/cesar.webp");
     grid-area: c;
 }
 .jason{
-    background-image: radial-gradient(#C7000025, black), url("jason.webp");
+    background-image: radial-gradient(#C7000025, black), url("./photos/jason.webp");
     grid-area: j;
 }
 .reko{
-    background-image: radial-gradient(#C7000025, black), url("reko.webp");
+    background-image: radial-gradient(#C7000025, black), url("./photos/reko.webp");
     grid-area: r;
 }
 .dev{
-    background-image: radial-gradient(#C7000025, black), url("dev.webp");
+    background-image: radial-gradient(#C7000025, black), url("./photos/dev.webp");
     grid-area: d;
 }
 .page-header{
