@@ -21,3 +21,16 @@ function blog(){
 function home(){
     location.href="./index.html"
 }
+
+function cesar(){
+    location.href="./cesar.html"
+}
+function jason(){
+    location.href="./jason.html"
+}
+function reko(){
+    location.href="./reko.html"
+}
+function dev(){
+    location.href="./dev.html"
+}

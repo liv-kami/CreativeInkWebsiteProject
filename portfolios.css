@@ -79,3 +79,46 @@ body{
 .blog-button{
     grid-area: bl;
 }
+
+.cards{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -40%;
+    display: grid;
+    grid-template-areas: "c j r d";
+    grid-gap: 50px;
+}
+
+.cesar, .jason, .reko, .dev {
+    background-size: cover;
+    height: 400px;
+    width: 250px;
+    border-radius: 50px;
+}
+.cesar-label, .jason-label, .reko-label, .dev-label{
+    color: #DEAE02;
+    font-family: 'Inknut Antiqua';
+    font-size: 12pt;
+    position: relative;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+}
+
+.cesar{
+    background-image: radial-gradient(#C7000025, black), url("cesar.webp");
+    grid-area: c;
+}
+.jason{
+    background-image: radial-gradient(#C7000025, black), url("jason.webp");
+    grid-area: j;
+}
+.reko{
+    background-image: radial-gradient(#C7000025, black), url("reko.webp");
+    grid-area: r;
+}
+.dev{
+    background-image: radial-gradient(#C7000025, black), url("dev.webp");
+    grid-area: d;
+}
