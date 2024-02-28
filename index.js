@@ -17,3 +17,7 @@ function blog(){
     location.href="./blog.html"
 
 }
+
+function home(){
+    location.href="./index.html"
+}
